@@ -17,7 +17,7 @@ https://docs.docker.com/desktop/setup/install/windows-install/
 
 ##Membuat Image Docker
 
-Masukkan semua dependecy ke  'requirements.txt'. Buat 'Dockerfile'
+Masukkan semua dependecy ke  `requirements.txt`. Buat `Dockerfile`
 Jalankan perintah
 ```
 docker build -t flasker-cc-crud:LATEST .
