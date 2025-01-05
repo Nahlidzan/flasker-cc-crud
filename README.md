@@ -5,12 +5,12 @@ Image tersedia di [Docker Hub](https://hub.docker.com/repository/docker/nzklvoz/
 
 ##Instalasi Docker
 
-'Ubuntu'
+`Ubuntu`
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-'Windows'
+`Windows`
 ```
 https://docs.docker.com/desktop/setup/install/windows-install/
 ```
@@ -26,7 +26,7 @@ docker build -t flasker-cc-crud:LATEST .
 
 ##Menjalankan image docker dalam container
 
-'Ubuntu'
+`Ubuntu`
 ```
 docker container run -d -p 5000:5000 nzklvoz/flasker-cc-crud:0.1.1.BETA
 ```
@@ -38,14 +38,14 @@ localhost:5000
 
 ##Fitur WebApp
 
-'HOME'
+`HOME`
 Menampilkan semua postingan
 
-'New Post'
+`New Post`
 Input post baru, isian berupa judul dan konten/deskripsi
 
-'Posts'
+`Posts`
 Dengan klik post yang ada di homepage akan membawa user ke halaman post tersebut
 
-'Edit'
+`Edit`
 Mengubah atau menghapus post yang sudah ada
